@@ -50,10 +50,10 @@ if ($Age -ge 18) {
             $opt = $host.UI.PromptForChoice($Title , $Info , $Options,$defaultchoice)
             switch($opt)
             {
-                        0 { Write-Host "Congrats you have successfully voted for Party-B" -ForegroundColor Green}
-                        1 { Write-Host "Congrats you have successfully voted for Party-A" -ForegroundColor Green}
-                        2 { Write-Host "Congrats you have successfully voted for Party-D" -ForegroundColor Green}
-                        3 { Write-Host "Congrats you have successfully voted for Party-C" -ForegroundColor Green}
+                        0 { Write-Host "Congrats you have successfully voted for Party-A" -ForegroundColor Green}
+                        1 { Write-Host "Congrats you have successfully voted for Party-B" -ForegroundColor Green}
+                        2 { Write-Host "Congrats you have successfully voted for Party-C" -ForegroundColor Green}
+                        3 { Write-Host "Congrats you have successfully voted for Party-D" -ForegroundColor Green}
                         4 { Write-Host "OOPS...its NOTA" -ForegroundColor Green}
             }
 
